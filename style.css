@@ -71,7 +71,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(90deg,rgba(255, 181, 181, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(19, 19, 19, 1) 0%, rgba(77, 77, 77, 1) 0%, rgba(255, 255, 255, 1) 81%);
+    background: white;
     align-items: center;
     position: relative; 
     bottom: 0; 
@@ -169,3 +169,54 @@ body {
     text-align: justify;
     
 }  
+/* Celulares */
+@media (max-width: 480px) {
+    .menu-principal {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .menu-direita, .menu-esquerda {
+        padding: 0;
+        gap: 40px;
+    }
+
+    .sobre-mim {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .foto-perfil img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .descricao {
+        font-size: 15px;
+    }
+
+    .tecnologias {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+    .experiencia-menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contatos {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        color: #1e1b32;
+        background-color: white;
+        align-items: center;
+    }
+}
