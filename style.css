@@ -51,6 +51,7 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: #1e1b32 0px 0px 10px;
 }
 
 .conteudo {
