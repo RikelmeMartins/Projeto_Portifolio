@@ -38,6 +38,25 @@ body {
     cursor: pointer;
 }
 
+.menu-botao button {
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #403f44;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.menu-botao button:hover {
+    box-shadow: #1e1b32 0px 0px 10px;
+    color: white;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
 .sobre-mim {
     display: flex;
     justify-content: space-around;
